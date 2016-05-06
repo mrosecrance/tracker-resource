@@ -1,6 +1,6 @@
 package out
 
-import "github.com/concourse/tracker-resource"
+import "github.com/mrosecrance/tracker-resource"
 
 type OutRequest struct {
 	Source resource.Source `json:"source"`

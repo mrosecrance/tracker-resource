@@ -4,7 +4,7 @@ image: docker:///concourse/static-golang
 
 inputs:
 - name: tracker-resource
-  path: gopath/src/github.com/concourse/tracker-resource
+  path: gopath/src/github.com/mrosecrance/tracker-resource
 
 outputs:
 - name: built-resource
@@ -13,4 +13,4 @@ params:
   TRACKER_TOKEN:
 
 run:
-  path: gopath/src/github.com/concourse/tracker-resource/scripts/ci
+  path: gopath/src/github.com/mrosecrance/tracker-resource/scripts/ci

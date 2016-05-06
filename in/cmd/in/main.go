@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/concourse/tracker-resource"
-	"github.com/concourse/tracker-resource/in"
+	"github.com/mrosecrance/tracker-resource"
+	"github.com/mrosecrance/tracker-resource/in"
 )
 
 func main() {

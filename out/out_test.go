@@ -19,8 +19,8 @@ import (
 
 	"github.com/onsi/gomega/ghttp"
 
-	"github.com/concourse/tracker-resource"
-	"github.com/concourse/tracker-resource/out"
+	"github.com/mrosecrance/tracker-resource"
+	"github.com/mrosecrance/tracker-resource/out"
 )
 
 var _ = Describe("Out", func() {

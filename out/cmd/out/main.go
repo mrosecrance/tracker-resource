@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/XenoPhex/go-tracker"
-	"github.com/concourse/tracker-resource"
-	"github.com/concourse/tracker-resource/out"
+	"github.com/mrosecrance/tracker-resource"
+	"github.com/mrosecrance/tracker-resource/out"
 	"github.com/mitchellh/colorstring"
 )
 

@@ -10,7 +10,7 @@ export PATH=$GOPATH/bin:$PATH
 
 BUILD_DIR=$PWD/built-resource
 
-cd $GOPATH/src/github.com/concourse/tracker-resource
+cd $GOPATH/src/github.com/mrosecrance/tracker-resource
 
 export GOPATH=${PWD}/Godeps/_workspace:$GOPATH
 export PATH=${PWD}/Godeps/_workspace/bin:$PATH
